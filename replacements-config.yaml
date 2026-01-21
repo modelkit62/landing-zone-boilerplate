@@ -24,18 +24,18 @@ globalReplacements:
   # AWS Budgets Notification Emails
   - key: BudgetsEmail
     type: String
-    value: <budget-notifications>@example.com  <----- UPDATE EMAIL ADDRESS
+    value: petracotes1967@gmail.com
 
   # SNS email notification configuration
   - key: SecurityHigh
     type: String
-    value: <notify-high>@example.com <----- UPDATE EMAIL ADDRESS
+    value: petracotes1967@gmail.com
   - key: SecurityMedium
     type: String
-    value: <notify-medium>@example.com <----- UPDATE EMAIL ADDRESS
+    value: petracotes1967@gmail.com
   - key: SecurityLow
     type: String
-    value: <notify-low>@example.com <----- UPDATE EMAIL ADDRESS
+    value: petracotes1967@gmail.com
 
   # Networking
   - key: TransitGatewayASN
