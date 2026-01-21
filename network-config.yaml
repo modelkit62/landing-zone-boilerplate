@@ -1,0 +1,11 @@
+homeRegion: eu-west-2
+defaultVpc:
+  delete: true
+  excludeAccounts: []
+transitGateways: []
+endpointPolicies:
+  - name: Default
+    document: vpc-endpoint-policies/default.json
+  - name: Ec2
+    document: vpc-endpoint-policies/ec2.json
+vpcs: []

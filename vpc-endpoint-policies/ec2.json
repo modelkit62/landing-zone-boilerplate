@@ -3,7 +3,7 @@
         {
             "Effect": "Allow",
             "Principal": "*",
-            "Action": "*",
+            "Action": "ec2:*",
             "Resource": "*"
         }
     ]
